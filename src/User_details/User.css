@@ -1,0 +1,87 @@
+.divuser{
+    
+    background-color: white;
+    /* padding: 10px; */
+    /* flex: 0.5; */
+    height: 85%;
+}
+.user{
+    flex: 0.5;
+    padding-right: 15px;
+  
+}
+.div_top{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.div_top>p{
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.github_profile{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.github_profile_avatar{
+    width: 100px !important;
+    margin-right: 10px;
+    height: 100px !important;
+}
+.github_profile{
+    display: flex;
+    align-items: center;
+}
+.github_user_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.github_profile_name > p{
+    color: grey;
+}
+.github_profile_name>h3{
+    letter-spacing: 1px;
+}
+
+.github_user_top >a{
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid rgb(11, 227, 235);
+    border-radius: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.github_user_bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.github_user_bottom>p{
+
+    margin-bottom: 15px;
+}
+.github_user_bottom_option {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.github_user_bottom_option>p,a{
+    margin-left: 8px;
+  text-decoration: none;
+
+}
+.github_user_bottom_option  >.MuiSvgIcon-root{
+    color: grey;
+}

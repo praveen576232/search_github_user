@@ -1,0 +1,20 @@
+.error_page{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.error_page > img{
+height: 300px;
+object-fit: contain;
+}
+.error_button{
+    background-color: rgb(2, 229, 245) !important;
+    color: white !important;
+    cursor: pointer;
+}
+.error_button:hover{
+    background-color: rgb(0, 247, 255) !important;
+    color: black !important;
+    cursor: pointer;
+}

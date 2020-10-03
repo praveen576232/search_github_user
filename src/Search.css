@@ -1,0 +1,68 @@
+.serach_input{
+    display: flex;
+    align-items: center;
+    width: 70%;
+   
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.serach_input>input{
+    border: none;
+    flex: 1;
+    padding-left: 10px;
+  font-weight: 799;
+  color: grey;
+letter-spacing: 1px;
+font-size: 20px;
+
+}
+.serach_input>input:focus{
+    outline-width: 0;
+}
+.serach_input >.MuiSvgIcon-root{
+    color: grey;
+}
+.serach_input>.MuiButtonBase-root{
+  text-transform: none !important;
+  letter-spacing: 1px !important;
+  width: 100px !important;
+  font-size: 20px;
+  background: rgb(41, 255, 202);
+  color: white;
+}
+.serach_input>.MuiButtonBase-root:hover{
+    background: rgb(54, 242, 255);
+    color: black;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search >h2{
+    color: grey;  
+    font-size: 25px;
+    
+}
+@media screen and (max-width:700px)
+{
+    .search{
+        flex-direction: column;
+    }
+    .serach_input{
+    width: 100%;
+    }
+    .serach_input>.MuiButtonBase-root{
+        font-size: 15px;
+  }
+  .search >h2{
+    color: grey;  
+    font-size: 20px;
+    
+}
+.serach_input>input{
+    font-size: 15px;
+}
+
+}

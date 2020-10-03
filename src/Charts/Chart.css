@@ -1,0 +1,31 @@
+.paichart,.barchart{
+    height: 300px;
+    margin-top: 30px;
+    flex: 0.5;
+    background-color: white;
+}
+.stars_piechart,.forks_barchart{
+    height: 300px;
+    margin-top: 30px;
+   width: 500px;
+    background-color: white;
+}
+.paichart,.stars_piechart{
+    margin-right: 12px;
+
+}
+.top-chart,.bottom-chart{
+    display: flex;
+   
+}
+
+@media screen and (max-width:700px)
+{
+    .top-chart{
+        margin-top: 330px;
+    }
+    .top-chart,.bottom-chart{
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_login_user_name{
+    padding-left:20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 650;
+}
+.header_login_user_name> strong{
+    text-align: center;
+    text-transform: uppercase;
+   margin-left: 10px;
+   font-size: 25px;
+}
+.header_logout{
+    margin-left: 20px;
+color: grey;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header_logout:hover{
+   border-radius: 8px;
+    background-color: rgb(227, 231, 231);
+}
